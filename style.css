@@ -450,78 +450,36 @@ footer {
 }
 
 
-/* Container khusus Gmail */
-.email-link {
+
+.email-social-links {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
   align-items: center;
-  width: 100%;
+  justify-content: flex-start;
+  gap: 12px;
   margin-top: 16px;
-  padding: 0;
 }
 
-/* Tombol Gmail */
-.email-link {
-  width: 54px;
-  height: 54px;
+.email-social-links .email-link {
+  width: 66px;
+  height: 66px;
+  flex-shrink: 0;
+
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 17px;
+  border-radius: 20px;
   background: rgba(255, 255, 255, 0.1);
 
   transition: transform 0.25s ease,
               background 0.25s ease;
 }
 
-.email-link svg {
-  width: 24px;
-  height: 24px;
-}
-
-.linkedin-link {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  margin-top: 16px;
-  padding: 0;
-}
-
-/* Tombol Gmail */
-.linkedin-link {
-  width: 54px;
-  height: 54px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 17px;
-  background: rgba(255, 255, 255, 0.1);
-
-  transition: transform 0.25s ease,
-              background 0.25s ease;
-}
-
-.linkedin-link svg {
-  width: 24px;
-  height: 24px;
-}
-
-
-.email-link:hover {
+.email-social-links .email-link:hover {
   transform: translateY(-3px);
-  background: rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.18);
 }
 
