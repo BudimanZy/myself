@@ -448,3 +448,42 @@ footer {
     transition: none !important;
   }
 }
+
+
+/* Social media yang sudah ada */
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Container Gmail khusus */
+.email-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.email-link {
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+
+  box-sizing: border-box;
+  transition: transform 0.25s ease,
+              background 0.25s ease;
+}
+
+.email-link:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.18);
+}
