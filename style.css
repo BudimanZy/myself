@@ -450,15 +450,6 @@ footer {
 }
 
 
-/* Social media yang sudah ada */
-.social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-
 /* Container khusus Gmail */
 .email-links {
   display: flex;
