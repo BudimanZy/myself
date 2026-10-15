@@ -458,32 +458,44 @@ footer {
   gap: 20px;
 }
 
-/* Container Gmail khusus */
+
+/* Container khusus Gmail */
 .email-links {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 24px;
   width: 100%;
+  margin-top: 16px;
+  padding: 0;
 }
 
+/* Tombol Gmail */
 .email-link {
-  width: 66px;
-  height: 66px;
+  width: 54px;
+  height: 54px;
   display: flex;
   justify-content: center;
   align-items: center;
 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
+  border-radius: 17px;
   background: rgba(255, 255, 255, 0.1);
 
-  box-sizing: border-box;
   transition: transform 0.25s ease,
               background 0.25s ease;
 }
 
-.email-link:hover {
-  transform: translateY(-4px);
-  background: rgba(255, 255, 255, 0.18);
+.email-link svg {
+  width: 24px;
+  height: 24px;
 }
+
+.email-link:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.16);
+}
+
