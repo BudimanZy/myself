@@ -451,7 +451,7 @@ footer {
 
 
 /* Container khusus Gmail */
-.email-links {
+.email-link {
   display: flex;
   justify-content: flex-start;
   align-items: center;
