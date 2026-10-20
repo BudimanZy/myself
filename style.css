@@ -483,3 +483,24 @@ footer {
   background: rgba(255, 255, 255, 0.18);
 }
 
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-list li {
+  padding-left: 0;
+  color: #e2e8f0;
+  font-size: 16px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.project-list li::before {
+  display: none;
+}
