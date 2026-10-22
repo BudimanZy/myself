@@ -1,1 +1,1 @@
-# myself
+# kelamin lo warna apa
